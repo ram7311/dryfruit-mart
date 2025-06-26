@@ -1,1 +1,1 @@
-export const BACKEND_API_URL = "${BACKEND_API_URL}"
+export const BACKEND_API_URL = "https://dryfruit-mart.onrender.com"
