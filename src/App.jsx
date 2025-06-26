@@ -12,6 +12,7 @@ import MyOrders from './components/MyOrders'
 import ProtectedRoute from './components/ProtectedRoute'
 import Login from './components/Login'
 import { getToken } from './components/auth'
+import { BACKEND_API_URL } from './components/constants'
 
 function App() {
 const [cartCount, setCartCount] = useState(0);

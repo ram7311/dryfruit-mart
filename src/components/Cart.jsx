@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import OrderFormModal from "./OrderFormModal";
 import { getToken } from "./auth";
+import { BACKEND_API_URL } from "./constants";
 
 export default function Cart ( {setCartCount} ) {
   const [cartItems, setCartItems] = useState([]);

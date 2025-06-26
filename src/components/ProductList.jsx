@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ProductModal from "./ProductModal"; // import popup component
 import { getToken } from "./auth";
+import { BACKEND_API_URL } from "./constants";
 
 function ProductList({ onAddToCart, searchTerm }) {
   const [products, setProducts] = useState([]);
