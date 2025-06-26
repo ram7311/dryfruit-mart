@@ -1,0 +1,10 @@
+.hover-raise {
+  transition: transform 0.3s ease;
+}
+
+.hover-raise:hover {
+  transform: translateY(-8px);
+}
+.custom-gradient {
+  background: linear-gradient(90deg, #c82479 0%, #0a31f3 100%);
+}
